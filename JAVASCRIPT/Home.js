@@ -7,10 +7,10 @@ document.getElementById('arrow-down').addEventListener('click', function(e) {
         logoutDiv.style.display = 'none';
     }
 });
-document.getElementById('Menu').addEventListener('mouseover', function() {
+document.getElementById('Menu').addEventListener('click', function() {
     document.getElementById('header').classList.add('show-before');
 });
 
-document.getElementById('Menu').addEventListener('mouseout', function() {
+document.getElementById('Menu').addEventListener('click', function() {
     document.getElementById('header').classList.remove('show-before');
 });
